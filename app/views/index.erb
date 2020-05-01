@@ -1,0 +1,6 @@
+<h1>Choose the recipe you would like to see:</h1>
+<%@recipes.each do |recipe|%>
+    <p><%=recipe.name%></p>
+    <p><%=recipe.ingredients%></p>
+    <p><%=recipe.cook_time%></p>
+<% end%>
